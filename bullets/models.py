@@ -1,3 +1,4 @@
+from django.contrib.localflavor.us.us_states import STATE_CHOICES
 from django.contrib.localflavor.us.models import USStateField
 from django.db import Models
 from djang.db import datetime
@@ -50,4 +51,4 @@ class Award(Models.Model):
     award_name = Models.CharField(max_length=50)
     award_date = Models.DateField(max_length=10)
     awarder = Models.CharField(max_lenght=10)
-    Summary = Models.CharField(max_length=100)    
+    Summary = Models.CharField(max_length=100)
