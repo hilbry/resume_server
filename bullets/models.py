@@ -8,7 +8,7 @@ class personal_Info(Models.Model):
     f_name = Models.CharField(max_length=30)
     l_name = Models.CharField(max_length=30)
     e_add = Models.CharField(max_length=50)
-    Home_add = Models.IntegerField(max_length=30)
+    home_add = Models.IntegerField(max_length=30)
     cell = Models.CharField(max_length=10)
     links = Models.CharField(max_length = 10**10)
 
