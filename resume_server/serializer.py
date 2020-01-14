@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from bulets.models import *
+from bullets.models import *
 
 class personal_InfoSerializer(serializers.ModelSerializer):
     class Meta:
